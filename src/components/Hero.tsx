@@ -1,12 +1,11 @@
 import { ArrowRight } from 'lucide-react';
-import { ThemeToggle } from './ThemeToggle';
 
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 dark:from-slate-900 dark:to-slate-950 pt-20 pb-32 transition-colors duration-300">
-      <div className="absolute top-4 right-4 z-50">
+      {/* <div className="absolute top-4 right-4 z-50">
         <ThemeToggle />
-      </div>
+      </div> */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#26EE5A]/10 via-transparent to-transparent"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -52,7 +51,6 @@ export function Hero() {
             <div className="relative lg:h-[600px] flex items-center justify-center">
               <div className="relative w-full max-w-2xl mx-auto">
                 <div className="absolute inset-0 bg-[#26EE5A]/20 blur-3xl rounded-full"></div>
-                <div className="relative rounded-[3rem] shadow-2xl p-8">
                   <div className="rounded-[2rem] p-6 space-y-4">
                     <img
                       src="src/assets/Frame 16.png"
@@ -60,7 +58,6 @@ export function Hero() {
                       className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
                     />
                   </div>
-                </div>
               </div>
             </div>
           </div>

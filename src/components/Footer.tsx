@@ -17,7 +17,7 @@ export function Footer() {
 
             <div className="flex items-center gap-6">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/scory_journal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#26EE5A] rounded-lg flex items-center justify-center transition-all hover:scale-110 group"
@@ -26,25 +26,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
               </a>
               <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-[#26EE5A] rounded-lg flex items-center justify-center transition-all hover:scale-110 group"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-[#26EE5A] rounded-lg flex items-center justify-center transition-all hover:scale-110 group"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
-              </a>
-              <a
-                href="mailto:support@scory.app"
+                href="mailto:scoryjournal@gmail.com"
                 className="w-10 h-10 bg-gray-800 hover:bg-[#26EE5A] rounded-lg flex items-center justify-center transition-all hover:scale-110 group"
                 aria-label="Email"
               >

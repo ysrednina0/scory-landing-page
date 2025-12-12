@@ -19,10 +19,16 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
+
+    // 👇 Semua alias harus ada di dalam properti "paths"
     "paths": {
-      "@/*": ["./src/*"]
+      // Alias utama untuk folder src
+      "@/*": ["./src/*"], 
+      // Alias yang Anda coba definisikan tadi
+      "@components/*": ["./src/components/*"], 
+      "@app/*": ["./src/app/*"]
     }
+    // ☝️ Pastikan ini adalah properti terakhir di compilerOptions atau diikuti koma
   },
   "include": ["src"]
 }
