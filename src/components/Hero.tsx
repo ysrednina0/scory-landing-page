@@ -1,4 +1,6 @@
 import { ArrowRight } from 'lucide-react';
+import logoScory from '../assets/logo-scory.png';
+import frame16 from '../assets/Frame 16.png';
 
 export function Hero() {
   return (
@@ -14,7 +16,7 @@ export function Hero() {
             <div className="text-center lg:text-left">
               <div className="flex items-center gap-3 mb-2">
                 <img
-                  src="src/assets/logo-scory.png"
+                  src={logoScory}
                   alt="Scory Logo"
                   className="h-6 w-auto object-contain"
                 />
@@ -53,7 +55,7 @@ export function Hero() {
                 <div className="absolute inset-0 bg-[#26EE5A]/20 blur-3xl rounded-full"></div>
                   <div className="rounded-[2rem] p-6 space-y-4">
                     <img
-                      src="src/assets/Frame 16.png"
+                      src={frame16}
                       alt="Scory Intelligence Dashboard"
                       className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
                     />

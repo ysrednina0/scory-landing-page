@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Twitter, Mail } from 'lucide-react';
+import logoScory from '../assets/logo-scory.png';
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
             <div className="flex items-center gap-3">
               <img
-                src="src/assets/logo-scory.png"
+                src={logoScory}
                 alt="Scory Logo"
                 className="h-6 w-auto object-contain"
               />

@@ -1,4 +1,5 @@
-import { Users, Award, TrendingUp } from 'lucide-react';
+
+import logoCognifera from '../assets/logo-cognifera.png';
 
 export function StrategicPartner() {
 
@@ -11,7 +12,7 @@ export function StrategicPartner() {
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
                   <img
-                    src="src/assets/logo-cognifera.png"
+                    src={logoCognifera}
                     alt="Scory Logo"
                     className="h-14 w-auto object-contain"
                   />

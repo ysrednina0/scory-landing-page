@@ -1,5 +1,11 @@
-import { Users, Award, TrendingUp } from 'lucide-react';
+
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import image21 from '../assets/image 21.png';
+import image22 from '../assets/image 22.png';
+import image24 from '../assets/image 24.png';
+import image25 from '../assets/image 25.png';
+import image26 from '../assets/image 26.png';
+import image27 from '../assets/image 27.png';
 
 export function SocialProof() {
   const testimonials = [
@@ -8,42 +14,42 @@ export function SocialProof() {
         "Finally, a tool that adapts to ME. The Personal Reading Level feature helps me understand complex international journals without constantly checking a dictionary. It bridges the language gap perfectly.",
       name: "Sekar",
       designation: "Mahasiswa",
-      src: "src/assets/image 21.png",
+      src: image21,
     },
     {
       quote:
         "I used to rely on ChatGPT, but the hallucinations were risky for my thesis. Scory is different—it uses RAG technology so I know the summaries are 100% accurate and safe to cite.",
       name: "Amgad",
       designation: "Mahasiswa",
-      src: "src/assets/image 22.png",
+      src: image22,
     },
     {
       quote:
         "Research usually feels draining, but Scory makes it addictive. I love the gamification features! Building my reading streak and taking quick quizzes keeps me motivated to finish my reading list.",
       name: "Reva",
       designation: "Mahasiswa",
-      src: "src/assets/image 24.png",
+      src: image24,
     },
     {
       quote:
         "Scory doesn't just simplify text; it preserves the scientific context. I can grasp difficult concepts in minutes rather than hours. It’s an absolute game-changer for tight deadlines.",
       name: "Lintang",
       designation: "Mahasiswa",
-      src: "src/assets/image 25.png",
+      src: image25,
     },
     {
       quote:
         "The 'Zero Hallucination' promise is real. Unlike other AI tools that make things up, Scory sticks strictly to the source material. It gives me the confidence to use the insights for my assignments.",
       name: "Dimas",
       designation: "Mahasiswa",
-      src: "src/assets/image 26.png",
+      src: image26,
     },
     {
       quote:
         "As a non-native English speaker, academic jargon was my biggest enemy. Scory transforms dense paragraphs into clear, understandable language. It actually helps improve my literacy.",
       name: "Fasya",
       designation: "Mahasiswa",
-      src: "src/assets/image 27.png",
+      src: image27,
     }
   ];
   return (
